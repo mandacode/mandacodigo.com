@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:mandacode/mandacodigo.com-frontend.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/mandacode/mandacodigo.com-backend
