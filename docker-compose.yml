@@ -24,8 +24,8 @@ services:
       context: frontend
     ports:
       - '3000:3000'
-    volumes:
-      - './frontend/:/usr/src/app'
+    # volumes:
+    #   - './frontend/:/usr/src/app'
     command: ['./wait-for-it.sh', 'backend:8000', '--', 'npm', 'start']
     restart: always
 
